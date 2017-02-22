@@ -3,15 +3,20 @@
  <head><% include partials/template/head.ejs %></head>
   <body>
       <% include partials/template/header.ejs %>
+      <% include partials/content/speakerslist.ejs %>
+        <
       <section class="layout">
           <div class="primary">
               
-            <div>orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tortor sed eros ultricies, ut hendrerit ex tincidunt. Pellentesque mollis eu turpis ac consequat. Duis elementum efficitur luctus. Integer lobortis vulputate velit, laoreet sollicitudin elit cursus eget. Phasellus at suscipit risus. Sed volutpat justo nunc, quis aliquet velit pretium non. Integer posuere nisi urna, ac pretium dui facilisis in. Duis varius ligula in ligula consequat dictum.</div>
+            <% include partials/content/whoarewe.ejs %>
+            <% include partials/content/getbusy.ejs %>
+                        <% include partials/content/whoshouldcome.ejs %>
               
           </div> <!--    end of primary -->
           
           <aside class="secondary">
-               <div>orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tortor sed eros ultricies, ut hendrerit ex tincidunt. Pellentesque mollis eu turpis ac consequat. Duis elementum efficitur luctus. Integer lobortis vulputate velit, laoreet sollicitudin elit cursus eget. Phasellus at suscipit risus. Sed volutpat justo nunc, quis aliquet velit pretium non. Integer posuere nisi urna, ac pretium dui facilisis in. Duis varius ligula in ligula consequat dictum.</div>
+       <% include partials/content/nextmeeting.ejs %>
+        <% include partials/content/artworklist.ejs %>
           
       </aside> <!--    end secondary-->
       </section>
